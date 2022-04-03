@@ -4,11 +4,11 @@ body {
     line-height: 1.6;
 }
 
-{
-    margin:0;
-    padding:0;
+    {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    }
+}
 
 .container {
     background-color: #FFF;
@@ -16,22 +16,7 @@ body {
     width: 960px;
 }
 
-.sidenote{
-    background-color: #FFFBE4;
-    border: 1px solid #C9BC8F;
-    float:right;
-    padding: 10px;
-    width: 260px;
-    
-}
 
-.sidenote h3 {
-    font-size: 14px;
-    margin-top: 0;
-}
-.sidenote ol {
-  font-size: 12px;
-}
 .place {
     background-color: #FFF;
     border: 1px solid #CCC;
@@ -68,23 +53,42 @@ h1 a:hover {
     float: left;
     margin: 0px 10px 0px 0px;
     padding: 2px;
-    
-    }
-
 
 }
-.clear{
-    clear:both;
+
+
+
+
+.clear {
+    clear: both;
 }
 
 
- 
 
-.places{
+
+.places {
     float: left;
     width: 660px;
 }
 
-.footer{
+.footer {
     font-size: 12px;
     text-align: center;
+
+ .sidenote {
+        background-color: #FFFBE4;
+        border:1px solid #C9BC8F;
+        float: right;
+        padding: 10px;
+        width: 260px;
+
+    }
+
+.sidenote h3 {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .sidenote ol {
+        font-size: 12px;
+    }
