@@ -1,13 +1,11 @@
 body {
-    background:#FFF1D6 /*url(img/noise.png)*/;
+    background: #FFF1D6;
     font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
     line-height: 1.6;
 }
 
-    {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@media screen and (max-width: 600px) {
+    
 }
 
 .container {
@@ -39,6 +37,7 @@ h1 a {
     color: #7E9F19;
     text-decoration: none;
 
+
 }
 
 
@@ -46,6 +45,7 @@ h1 a {
 h1 a:hover {
     background-color: #7E9F19;
     color: #FFF;
+
 }
 
 .place img {
@@ -65,26 +65,29 @@ h1 a:hover {
     float: left;
     width: 660px;
 }
- .sidenote {
-        background-color: #FFFBE4;
-        border:1px solid #C9BC8F;
-        float: right;
-        padding: 10px;
-        width: 260px;
-        margin-top:25px; 
 
-    }
+.sidenote {
+    background-color: #FFFBE4;
+    border: 1px solid #C9BC8F;
+    float: right;
+    padding: 10px;
+    width: 260px;
+    margin-top: 25px;
+
+}
 
 .sidenote h3 {
-        font-size: 14px;
-        margin-top: 0;
-    }
+    font-size: 14px;
+    margin-top: 0;
+    text-align: center;
+}
 
-    .sidenote ol {
-        font-size: 12px;
-    }
+.sidenote ol {
+    font-size: 12px;
+}
 
-    .footer-clear{
-        font-size: 12px;
-        text-align: center;
-    }
+.footer clear {
+    font-size: 10px;
+  text-align: center;
+    
+}
